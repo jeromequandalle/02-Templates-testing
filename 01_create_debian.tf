@@ -23,7 +23,7 @@ resource "proxmox_vm_qemu" "debian_test" {
       scsi0 {
        disk {
      size = "15G"
-     storage = "production.storage.infra"
+     storage = "var.storage"
      format  = "raw"
             }
        } 
