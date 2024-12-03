@@ -13,6 +13,7 @@ variable "ssh_key_pub" {}
 variable "ci_user" {}
 variable "ci_mdp" {}
 
+variable "storage" {}
 
 # Déclaration des variables
 variable "proxmox_api_token_id" {
