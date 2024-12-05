@@ -1,6 +1,7 @@
 # Ip server
 variable "ciipconfig" {}
 variable "promox_url" {}
+variable "node"{}
 #ssh user
 variable "ssh_user" {}
 variable "ssh_key" {}
