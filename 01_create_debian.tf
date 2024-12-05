@@ -1,7 +1,7 @@
 resource "proxmox_vm_qemu" "debian_test" {
   name       = "debiantest"
   #agent      = 1
-  target_node= "forza"   # Spécifiez le nom de votre nœud Proxmox ici
+  target_node= var.node # Spécifiez le nom de votre nœud Proxmox ici
   clone      = "debian.template"
   scsihw     = "virtio-scsi-pci"
   full_clone   = true
