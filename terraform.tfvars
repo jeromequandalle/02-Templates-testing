@@ -1,5 +1,5 @@
 #ssh connexion commun
-ssh_key = "<---chemin de votre clé public------>"
+ssh_key = "<---chemin de votre clé privée------>"
 ssh_user = "<----votre utilisateur ssh ----->"
 node = "<---nom de votre node proxmox ---->"
 
